@@ -32,7 +32,12 @@ import org.bouncycastle.openssl.jcajce.JceOpenSSLPKCS8DecryptorProviderBuilder;
 import org.bouncycastle.operator.InputDecryptorProvider;
 import org.bouncycastle.pkcs.PKCS8EncryptedPrivateKeyInfo;
 
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+
 public class SnowflakeJdbcDebugApp {
+    private static HikariConfig hikariConfig = new HikariConfig();
+    private static HikariDataSource hikariDataSource;
     private static final String JDBC_PRIVATE_KEY_FILE="private_key_file";
     private static final String JDBC_PRIVATE_KEY = "privateKey";
     private static final String JDBC_PRIVATE_KEY_PASSPHRASE="private_key_file_pwd";
@@ -43,13 +48,20 @@ public class SnowflakeJdbcDebugApp {
     private static Connection connection;
     private static String[] sqlQueries;
     static boolean useConnectionParameters = false;
+    static boolean useConnectionPooling = false;
 
     public SnowflakeJdbcDebugApp() {
     }
 
     public static void main(String[] args) throws Exception {
+        //Dirty code that needs to be cleaned up.
+        //The user has to pass either 0 arguments or exactly two boolean
+        //arguments (true/false), otherwise this will fail horribly.
         if (args.length > 0) {
-            useConnectionParameters = true;
+            if(args[0].toLowerCase().equals("true"))
+                useConnectionParameters = true;
+            if(args[1].toLowerCase().equals("true"))
+                useConnectionPooling = true;
         }
 
         String queryId = null;
@@ -132,6 +144,7 @@ public class SnowflakeJdbcDebugApp {
                 String file = properties.getProperty(JDBC_PRIVATE_KEY_FILE);
                 properties.put(JDBC_PRIVATE_KEY, PrivateKeyReader.get(file));
                 properties.remove(JDBC_PRIVATE_KEY_FILE);
+                properties.remove(JDBC_PRIVATE_KEY_PASSPHRASE);
             }
 
         }
@@ -169,7 +182,21 @@ public class SnowflakeJdbcDebugApp {
         System.out.println("Using connection string: " + connectStr);
         System.out.println("DebugApp: Creating Snowflake connection");
         connectionStartTime = System.nanoTime();
+
+        if(useConnectionPooling){
+            System.out.println("Hikari Connection Pooling is enabled.");
+            hikariConfig = new HikariConfig();
+            System.out.println("Creating a HikariDataSource and getting a new connection");
+            hikariConfig.setDriverClassName("net.snowflake.client.jdbc.SnowflakeDriver");
+            hikariConfig.setJdbcUrl(connectStr);
+            hikariConfig.setDataSourceProperties(properties); // This line reproduces the issue if it contains PrivateKey
+            System.out.println("Adding Hikari config setUsername: " + properties.getProperty("user"));
+            hikariConfig.setUsername(properties.getProperty("user"));
+            hikariDataSource = new HikariDataSource(hikariConfig);
+            return hikariDataSource.getConnection();
+        }
         return DriverManager.getConnection(connectStr, properties);
+
     }
 
     private static void getSqlQueries() {

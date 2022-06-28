@@ -11,13 +11,15 @@
 
 4.) If you need to add connection parameters, then use the connection.properties
     file. This is ignored unless you pass an argument to the application. You can
-    edit the run_* scripts and add the value 'true' at the very end, for example:
+    edit the run_* scripts and add the value 'true' at the very end. At this time,
+    you have to provide exactly two boolean arguments. The second boolean argument
+    is to enable Hikari Connection Pooling:
 
-    SnowflakeJdbcDebugApp true
+    //Read connection parameters from connection.properties file and don't use Hikari:
+    SnowflakeJdbcDebugApp true false
+
+    //Ignore connection parameters in connection.properties file and use Hikari CP:
+    SnowflakeJdbcDebugApp false true
 
 5.) After the application runs, it will generate a log file called 
     snowflake_jdbc.log in the same directory where the scripts reside.
-
-6.) To change the Snowflake JDBC driver version edit the run_* scripts.
-
-7.) Add any JVM arguments to the run_* scripts (for example: -Xmx2g).

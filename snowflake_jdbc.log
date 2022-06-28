@@ -1,0 +1,1497 @@
+22/03/31 13:57:06 main DEBUG DefaultSFConnectionHandler: Trying to establish session, JDBC driver version: 3.13.5
+22/03/31 13:57:06 main DEBUG SFSession: input: server=https://sfcsupport-waleed_va2.snowflakecomputing.com:443/, account=sfcsupport-waleed_va2, user=snowsql, password=***, role=null, database=null, schema=null, warehouse=null, validate_default_parameters=null, authenticator=null, ocsp_mode=FAIL_OPEN, passcode_in_password=null, passcode=****  private_key=(null), disable_socks_proxy=null, application=null, app_id=JDBC, app_version=3.13.5, login_timeout=null, network_timeout=null, query_timeout=null, tracing=null, private_key_file=null, private_key_file_pwd=****  session_parameters: client_store_temporary_credential=null
+22/03/31 13:57:06 main DEBUG SFSession: connection proxy parameters: use_proxy=false, proxy_host=, proxy_port=0, proxy_user=, proxy_password=****  non_proxy_hosts=
+22/03/31 13:57:06 main DEBUG HttpUtil: http.useProxy=false. JVM proxy not used.
+22/03/31 13:57:06 main DEBUG HttpUtil: time to live in connection pooling manager: -1
+22/03/31 13:57:06 main DEBUG FileCacheManager: Verified Directory /Users/wfateem/Library/Caches/Snowflake
+22/03/31 13:57:06 main DEBUG FileCacheManager: Cache file already exists /Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 13:57:06 main DEBUG FileCacheManager: No cache file lock directory exists and cache file is up to date.
+22/03/31 13:57:07 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 0; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=093e0d82-66b5-4388-8190-70ac58771279 HTTP/1.1
+22/03/31 13:57:07 main DEBUG RestRequest: Retry count: 0
+22/03/31 13:57:07 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 13:57:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 13:57:07 main DEBUG SFTrustManager: Current Time: Thu Mar 31 13:57:07 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 13:57:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 13:57:07 main DEBUG FileCacheManager: Writing cache file. File=/Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 13:57:08 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 13:57:08 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=093e0d82-66b5-4388-8190-70ac58771279 HTTP/1.1
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/03/31 13:57:08 main DEBUG SessionUtil: server version = 6.9.0
+22/03/31 13:57:08 main DEBUG SessionUtil: new client: 3.12.3
+22/03/31 13:57:08 main DEBUG SessionUtil: health check interval = 45
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SFSession: heartbeat not enabled for the session
+22/03/31 13:57:08 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency)
+22/03/31 13:57:08 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1:  public SnowflakeStatement(SnowflakeConnectionV1 conn)
+22/03/31 13:57:08 main DEBUG SFStatement:  public SFStatement(SFSession session)
+22/03/31 13:57:08 main DEBUG SFStatement: execute: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/03/31 13:57:08 main DEBUG SFStatement: executeQuery: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/03/31 13:57:08 main DEBUG SFStatement: JDBC conservative memory usage is enabled.
+22/03/31 13:57:08 main DEBUG SFStatement: conservativeResultChunkSize changed from 0 to 160
+22/03/31 13:57:08 main DEBUG StmtUtil: JSON: {"sqlText":"SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE","sequenceId":0,"bindings":null,"bindStage":null,"describeOnly":false,"parameters":{"CLIENT_RESULT_CHUNK_SIZE":160},"describedJobId":null,"querySubmissionTime":1648753028307,"isInternal":false,"asyncExec":false}
+22/03/31 13:57:08 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=11e83dea-8974-470f-8409-13110eaa717c HTTP/1.1
+22/03/31 13:57:08 main DEBUG RestRequest: Retry count: 0
+22/03/31 13:57:08 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 13:57:08 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=11e83dea-8974-470f-8409-13110eaa717c HTTP/1.1
+22/03/31 13:57:08 main DEBUG StmtUtil: Returning result
+22/03/31 13:57:08 main DEBUG SFStatement: Returning from executeHelper
+22/03/31 13:57:08 main DEBUG SFStatement: Creating result set
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Entering create()
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: query id: 01a34cb1-0601-dbb9-006e-32830005c036
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/03/31 13:57:08 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/03/31 13:57:08 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL1,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL2,typeName=TIMESTAMPLTZ,type=50000,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL3,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL4,typeName=TIMESTAMPTZ,type=50001,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 13:57:08 main DEBUG InternalLoggerFactory: Using SLF4J as the default logging framework
+22/03/31 13:57:08 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.level: simple
+22/03/31 13:57:08 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.targetRecords: 4
+22/03/31 13:57:08 main DEBUG PlatformDependent: Platform: MacOS
+22/03/31 13:57:08 main DEBUG PlatformDependent0: -Dio.netty.noUnsafe: false
+22/03/31 13:57:08 main DEBUG PlatformDependent0: Java version: 8
+22/03/31 13:57:08 main DEBUG PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+22/03/31 13:57:08 main DEBUG PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+22/03/31 13:57:08 main DEBUG PlatformDependent0: java.nio.Buffer.address: available
+22/03/31 13:57:08 main DEBUG PlatformDependent0: direct buffer constructor: available
+22/03/31 13:57:08 main DEBUG PlatformDependent0: java.nio.Bits.unaligned: available, true
+22/03/31 13:57:08 main DEBUG PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22/03/31 13:57:08 main DEBUG PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+22/03/31 13:57:08 main DEBUG PlatformDependent: sun.misc.Unsafe: available
+22/03/31 13:57:08 main DEBUG PlatformDependent: -Dio.netty.tmpdir: /var/folders/fw/gz2yvsw54cx9zbg16yc4gmsm0000gn/T (java.io.tmpdir)
+22/03/31 13:57:08 main DEBUG PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22/03/31 13:57:08 main DEBUG PlatformDependent: -Dio.netty.noPreferDirect: false
+22/03/31 13:57:08 main DEBUG PlatformDependent: -Dio.netty.maxDirectMemory: 15271460864 bytes
+22/03/31 13:57:08 main DEBUG PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22/03/31 13:57:08 main DEBUG CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 32
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 32
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+22/03/31 13:57:08 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+22/03/31 13:57:08 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22/03/31 13:57:08 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22/03/31 13:57:08 main DEBUG AbstractByteBuf: -Dnet.snowflake.client.jdbc.internal.io.netty.buffer.bytebuf.checkAccessible: true
+22/03/31 13:57:08 main DEBUG ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: net.snowflake.client.jdbc.internal.io.netty.util.ResourceLeakDetector@6872f9c8
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: First chunk row count: 0
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: result version=1
+22/03/31 13:57:08 main DEBUG ResultUtil: sql timestamp_ntz format: YYYY-MM-DD HH24:MI:SS.FF3, java timestamp_ntz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss
+22/03/31 13:57:08 main DEBUG ResultUtil: sql timestamp_ltz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_ltz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/03/31 13:57:08 main DEBUG ResultUtil: sql timestamp_tz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_tz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: sql date format: YYYY-MM-DD, java date format: yyyy'-'MM'-'dd
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: sql time format: HH24:MI:SS, java time format: HH':'mm':'ss
+22/03/31 13:57:08 main DEBUG SnowflakeResultSetSerializableV1: Honoring client TZ for timestamp_ntz? true
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/03/31 13:57:08 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/03/31 13:57:08 main DEBUG SFStatement: Done creating result set
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1: getResultSetType()
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1: getResultSetConcurrency()
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1: getResultSetHoldability()
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 13:57:08 main DEBUG SnowflakeStatementV1: getResultSet()
+22/03/31 13:57:08 main DEBUG SnowflakeBaseResultSet: public <T> T unwrap(Class<T> iface)
+22/03/31 13:57:57 main DEBUG SFArrowResultSet: end of result
+22/03/31 13:57:57 main DEBUG SFBaseResultSet: public void close()
+22/03/31 13:57:57 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/03/31 13:57:57 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 13:57:57 main DEBUG SnowflakeStatementV1: close()
+22/03/31 13:57:57 main DEBUG SFBaseResultSet: public void close()
+22/03/31 13:57:57 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/03/31 13:57:57 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 13:57:57 main DEBUG SFStatement: public void close()
+22/03/31 13:57:57 main DEBUG SnowflakeConnectionV1:  public void close()
+22/03/31 13:57:57 main DEBUG SFSession:  public void close()
+22/03/31 13:57:57 main DEBUG SFSession: heartbeat not enabled for the session
+22/03/31 13:57:57 main DEBUG SessionUtil:  public void close() throws SFException
+22/03/31 13:57:57 pool-1-thread-1 DEBUG SFBaseSession: Payload of telemetry is : {"logs":[{"timestamp":"1648753028628","message":{"type":"client_time_consume_first_result","query_id":"01a34cb1-0601-dbb9-006e-32830005c036","value":122}}]}
+22/03/31 13:57:57 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session?delete=true&requestId=5060ce35-89dc-49a4-8da1-4f6eb529c51d HTTP/1.1
+22/03/31 13:57:57 pool-1-thread-1 DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/telemetry/send HTTP/1.1
+22/03/31 13:57:57 main DEBUG RestRequest: Retry count: 0
+22/03/31 13:57:57 pool-1-thread-1 DEBUG RestRequest: Retry count: 0
+22/03/31 13:57:57 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 13:57:57 main DEBUG HttpUtil: Pool: [leased: 1; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session?delete=true&requestId=5060ce35-89dc-49a4-8da1-4f6eb529c51d HTTP/1.1
+22/03/31 13:57:57 main DEBUG SessionUtil: connection close response: {
+  "data" : null,
+  "code" : null,
+  "message" : null,
+  "success" : true
+}
+22/03/31 15:18:19 main DEBUG DefaultSFConnectionHandler: Trying to establish session, JDBC driver version: 3.13.5
+22/03/31 15:18:19 main DEBUG SFSession: input: server=https://sfcsupport-waleed_va2.snowflakecomputing.com:443/, account=sfcsupport-waleed_va2, user=snowsql, password=***, role=null, database=null, schema=null, warehouse=null, validate_default_parameters=null, authenticator=null, ocsp_mode=FAIL_OPEN, passcode_in_password=null, passcode=****  private_key=(null), disable_socks_proxy=null, application=null, app_id=JDBC, app_version=3.13.5, login_timeout=null, network_timeout=null, query_timeout=null, tracing=null, private_key_file=null, private_key_file_pwd=****  session_parameters: client_store_temporary_credential=null
+22/03/31 15:18:19 main DEBUG SFSession: connection proxy parameters: use_proxy=false, proxy_host=, proxy_port=0, proxy_user=, proxy_password=****  non_proxy_hosts=
+22/03/31 15:18:19 main DEBUG HttpUtil: http.useProxy=false. JVM proxy not used.
+22/03/31 15:18:19 main DEBUG HttpUtil: time to live in connection pooling manager: -1
+22/03/31 15:18:19 main DEBUG FileCacheManager: Verified Directory /Users/wfateem/Library/Caches/Snowflake
+22/03/31 15:18:19 main DEBUG FileCacheManager: Cache file already exists /Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 15:18:19 main DEBUG FileCacheManager: No cache file lock directory exists and cache file is up to date.
+22/03/31 15:18:19 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 0; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=e76b122f-c033-4a9e-b6d0-8f5bd5f86a4f HTTP/1.1
+22/03/31 15:18:19 main DEBUG RestRequest: Retry count: 0
+22/03/31 15:18:19 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 15:18:19 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:18:19 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:18:19 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 15:18:19 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:18:19 main DEBUG FileCacheManager: Writing cache file. File=/Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 15:18:20 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 15:18:20 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=e76b122f-c033-4a9e-b6d0-8f5bd5f86a4f HTTP/1.1
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/03/31 15:18:20 main DEBUG SessionUtil: server version = 6.9.0
+22/03/31 15:18:20 main DEBUG SessionUtil: new client: 3.12.3
+22/03/31 15:18:20 main DEBUG SessionUtil: health check interval = 45
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SFSession: heartbeat not enabled for the session
+22/03/31 15:18:20 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency)
+22/03/31 15:18:20 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1:  public SnowflakeStatement(SnowflakeConnectionV1 conn)
+22/03/31 15:18:20 main DEBUG SFStatement:  public SFStatement(SFSession session)
+22/03/31 15:18:20 main DEBUG SFStatement: execute: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/03/31 15:18:20 main DEBUG SFStatement: executeQuery: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/03/31 15:18:20 main DEBUG SFStatement: JDBC conservative memory usage is enabled.
+22/03/31 15:18:20 main DEBUG SFStatement: conservativeResultChunkSize changed from 0 to 160
+22/03/31 15:18:20 main DEBUG StmtUtil: JSON: {"sqlText":"SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE","sequenceId":0,"bindings":null,"bindStage":null,"describeOnly":false,"parameters":{"CLIENT_RESULT_CHUNK_SIZE":160},"describedJobId":null,"querySubmissionTime":1648757900508,"isInternal":false,"asyncExec":false}
+22/03/31 15:18:20 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=67db07e3-aa30-4006-b87b-031df55ca4a8 HTTP/1.1
+22/03/31 15:18:20 main DEBUG RestRequest: Retry count: 0
+22/03/31 15:18:20 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 15:18:20 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=67db07e3-aa30-4006-b87b-031df55ca4a8 HTTP/1.1
+22/03/31 15:18:20 main DEBUG StmtUtil: Returning result
+22/03/31 15:18:20 main DEBUG SFStatement: Returning from executeHelper
+22/03/31 15:18:20 main DEBUG SFStatement: Creating result set
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Entering create()
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: query id: 01a34d02-0601-dcf1-006e-32830006402e
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/03/31 15:18:20 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/03/31 15:18:20 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL1,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL2,typeName=TIMESTAMPLTZ,type=50000,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL3,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL4,typeName=TIMESTAMPTZ,type=50001,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/03/31 15:18:20 main DEBUG InternalLoggerFactory: Using SLF4J as the default logging framework
+22/03/31 15:18:20 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.level: simple
+22/03/31 15:18:20 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.targetRecords: 4
+22/03/31 15:18:20 main DEBUG PlatformDependent: Platform: MacOS
+22/03/31 15:18:20 main DEBUG PlatformDependent0: -Dio.netty.noUnsafe: false
+22/03/31 15:18:20 main DEBUG PlatformDependent0: Java version: 8
+22/03/31 15:18:20 main DEBUG PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+22/03/31 15:18:20 main DEBUG PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+22/03/31 15:18:20 main DEBUG PlatformDependent0: java.nio.Buffer.address: available
+22/03/31 15:18:20 main DEBUG PlatformDependent0: direct buffer constructor: available
+22/03/31 15:18:20 main DEBUG PlatformDependent0: java.nio.Bits.unaligned: available, true
+22/03/31 15:18:20 main DEBUG PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22/03/31 15:18:20 main DEBUG PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+22/03/31 15:18:20 main DEBUG PlatformDependent: sun.misc.Unsafe: available
+22/03/31 15:18:20 main DEBUG PlatformDependent: -Dio.netty.tmpdir: /var/folders/fw/gz2yvsw54cx9zbg16yc4gmsm0000gn/T (java.io.tmpdir)
+22/03/31 15:18:20 main DEBUG PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22/03/31 15:18:20 main DEBUG PlatformDependent: -Dio.netty.noPreferDirect: false
+22/03/31 15:18:20 main DEBUG PlatformDependent: -Dio.netty.maxDirectMemory: 15271460864 bytes
+22/03/31 15:18:20 main DEBUG PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22/03/31 15:18:20 main DEBUG CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 32
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 32
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+22/03/31 15:18:20 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+22/03/31 15:18:20 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22/03/31 15:18:20 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22/03/31 15:18:20 main DEBUG AbstractByteBuf: -Dnet.snowflake.client.jdbc.internal.io.netty.buffer.bytebuf.checkAccessible: true
+22/03/31 15:18:20 main DEBUG ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: net.snowflake.client.jdbc.internal.io.netty.util.ResourceLeakDetector@584f5497
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: First chunk row count: 0
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: result version=1
+22/03/31 15:18:20 main DEBUG ResultUtil: sql timestamp_ntz format: YYYY-MM-DD HH24:MI:SS.FF3, java timestamp_ntz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss
+22/03/31 15:18:20 main DEBUG ResultUtil: sql timestamp_ltz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_ltz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/03/31 15:18:20 main DEBUG ResultUtil: sql timestamp_tz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_tz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: sql date format: YYYY-MM-DD, java date format: yyyy'-'MM'-'dd
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: sql time format: HH24:MI:SS, java time format: HH':'mm':'ss
+22/03/31 15:18:20 main DEBUG SnowflakeResultSetSerializableV1: Honoring client TZ for timestamp_ntz? true
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/03/31 15:18:20 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/03/31 15:18:20 main DEBUG SFStatement: Done creating result set
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1: getResultSetType()
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1: getResultSetConcurrency()
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1: getResultSetHoldability()
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 15:18:20 main DEBUG SnowflakeStatementV1: getResultSet()
+22/03/31 15:18:20 main DEBUG SnowflakeBaseResultSet: public <T> T unwrap(Class<T> iface)
+22/03/31 15:19:20 main DEBUG SFArrowResultSet: end of result
+22/03/31 15:19:20 main DEBUG SFBaseResultSet: public void close()
+22/03/31 15:19:20 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/03/31 15:19:20 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 15:19:20 main DEBUG SnowflakeStatementV1: close()
+22/03/31 15:19:20 main DEBUG SFBaseResultSet: public void close()
+22/03/31 15:19:20 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/03/31 15:19:20 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/03/31 15:19:20 main DEBUG SFStatement: public void close()
+22/03/31 15:19:20 main DEBUG SnowflakeConnectionV1:  public void close()
+22/03/31 15:19:20 main DEBUG SFSession:  public void close()
+22/03/31 15:19:20 main DEBUG SFSession: heartbeat not enabled for the session
+22/03/31 15:19:20 main DEBUG SessionUtil:  public void close() throws SFException
+22/03/31 15:19:20 pool-1-thread-1 DEBUG SFBaseSession: Payload of telemetry is : {"logs":[{"timestamp":"1648757900822","message":{"type":"client_time_consume_first_result","query_id":"01a34d02-0601-dcf1-006e-32830006402e","value":0}}]}
+22/03/31 15:19:20 pool-1-thread-1 DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/telemetry/send HTTP/1.1
+22/03/31 15:19:20 pool-1-thread-1 DEBUG RestRequest: Retry count: 0
+22/03/31 15:19:20 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session?delete=true&requestId=785ed8b0-7179-4168-b434-abe9268f3795 HTTP/1.1
+22/03/31 15:19:20 main DEBUG RestRequest: Retry count: 0
+22/03/31 15:19:20 pool-1-thread-1 DEBUG RestRequest: HTTP response code: 200
+22/03/31 15:19:48 main DEBUG DefaultSFConnectionHandler: Trying to establish session, JDBC driver version: 3.13.5
+22/03/31 15:19:48 main DEBUG SFSession: input: server=https://sfcsupport-waleed_va2.snowflakecomputing.com:443/, account=sfcsupport-waleed_va2, user=snowsql, password=***, role=null, database=null, schema=null, warehouse=null, validate_default_parameters=null, authenticator=null, ocsp_mode=FAIL_OPEN, passcode_in_password=null, passcode=****  private_key=(null), disable_socks_proxy=null, application=null, app_id=JDBC, app_version=3.13.5, login_timeout=null, network_timeout=null, query_timeout=null, tracing=null, private_key_file=null, private_key_file_pwd=****  session_parameters: client_store_temporary_credential=null
+22/03/31 15:19:48 main DEBUG SFSession: connection proxy parameters: use_proxy=false, proxy_host=, proxy_port=0, proxy_user=, proxy_password=****  non_proxy_hosts=
+22/03/31 15:19:48 main DEBUG HttpUtil: http.useProxy=false. JVM proxy not used.
+22/03/31 15:19:48 main DEBUG HttpUtil: time to live in connection pooling manager: -1
+22/03/31 15:19:48 main DEBUG FileCacheManager: Verified Directory /Users/wfateem/Library/Caches/Snowflake
+22/03/31 15:19:48 main DEBUG FileCacheManager: Cache file already exists /Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 15:19:49 main DEBUG FileCacheManager: No cache file lock directory exists and cache file is up to date.
+22/03/31 15:19:49 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 0; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=9fd758d0-1212-420f-90fa-9a89568fb1b2 HTTP/1.1
+22/03/31 15:19:49 main DEBUG RestRequest: Retry count: 0
+22/03/31 15:19:49 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/03/31 15:19:49 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/03/31 15:19:49 main DEBUG SFTrustManager: Current Time: Thu Mar 31 15:19:49 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/03/31 15:19:49 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/03/31 15:19:49 main DEBUG FileCacheManager: Writing cache file. File=/Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/03/31 15:19:50 main DEBUG RestRequest: HTTP response code: 200
+22/03/31 15:19:50 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=9fd758d0-1212-420f-90fa-9a89568fb1b2 HTTP/1.1
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/03/31 15:19:50 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/03/31 15:19:50 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/03/31 15:19:50 main DEBUG SessionUtil: server version = 6.9.0
+22/03/31 15:19:50 main DEBUG SessionUtil: new client: 3.12.3
+22/03/31 15:19:50 main DEBUG SessionUtil: health check interval = 45
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/03/31 15:19:50 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/03/31 15:19:50 main DEBUG SFSession: heartbeat not enabled for the session
+22/03/31 15:19:50 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency)
+22/03/31 15:19:50 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability
+22/03/31 15:19:50 main DEBUG SnowflakeStatementV1:  public SnowflakeStatement(SnowflakeConnectionV1 conn)
+22/03/31 15:19:50 main DEBUG SFStatement:  public SFStatement(SFSession session)
+22/04/01 11:18:06 main DEBUG DefaultSFConnectionHandler: Trying to establish session, JDBC driver version: 3.13.5
+22/04/01 11:18:06 main DEBUG SFSession: input: server=https://sfcsupport-waleed_va2.snowflakecomputing.com:443/, account=sfcsupport-waleed_va2, user=snowsql, password=***, role=null, database=null, schema=null, warehouse=null, validate_default_parameters=null, authenticator=null, ocsp_mode=FAIL_OPEN, passcode_in_password=null, passcode=****  private_key=(null), disable_socks_proxy=null, application=null, app_id=JDBC, app_version=3.13.5, login_timeout=null, network_timeout=null, query_timeout=null, tracing=null, private_key_file=null, private_key_file_pwd=****  session_parameters: client_store_temporary_credential=null
+22/04/01 11:18:06 main DEBUG SFSession: connection proxy parameters: use_proxy=false, proxy_host=, proxy_port=0, proxy_user=, proxy_password=****  non_proxy_hosts=
+22/04/01 11:18:06 main DEBUG HttpUtil: http.useProxy=false. JVM proxy not used.
+22/04/01 11:18:06 main DEBUG HttpUtil: time to live in connection pooling manager: -1
+22/04/01 11:18:06 main DEBUG FileCacheManager: Verified Directory /Users/wfateem/Library/Caches/Snowflake
+22/04/01 11:18:06 main DEBUG FileCacheManager: Cache file already exists /Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/04/01 11:18:06 main DEBUG FileCacheManager: No cache file lock directory exists and cache file is up to date.
+22/04/01 11:18:06 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 0; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=d64fd535-993d-4d6d-86bc-5667058523fd HTTP/1.1
+22/04/01 11:18:06 main DEBUG RestRequest: Retry count: 0
+22/04/01 11:18:07 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:18:07 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:18:07 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:18:07 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:18:07 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:18:07 main DEBUG FileCacheManager: Writing cache file. File=/Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/04/01 11:18:07 main DEBUG RestRequest: HTTP response code: 200
+22/04/01 11:18:07 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=d64fd535-993d-4d6d-86bc-5667058523fd HTTP/1.1
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/04/01 11:18:07 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/04/01 11:18:07 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/04/01 11:18:07 main DEBUG SessionUtil: server version = 6.9.0
+22/04/01 11:18:07 main DEBUG SessionUtil: new client: 3.12.3
+22/04/01 11:18:07 main DEBUG SessionUtil: health check interval = 45
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/04/01 11:18:07 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/04/01 11:18:07 main DEBUG SFSession: heartbeat not enabled for the session
+22/04/01 11:18:07 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency)
+22/04/01 11:18:07 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability
+22/04/01 11:18:07 main DEBUG SnowflakeStatementV1:  public SnowflakeStatement(SnowflakeConnectionV1 conn)
+22/04/01 11:18:07 main DEBUG SFStatement:  public SFStatement(SFSession session)
+22/04/01 11:18:16 main DEBUG SFStatement: execute: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/04/01 11:18:16 main DEBUG SFStatement: executeQuery: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/04/01 11:18:16 main DEBUG SFStatement: JDBC conservative memory usage is enabled.
+22/04/01 11:18:16 main DEBUG SFStatement: conservativeResultChunkSize changed from 0 to 160
+22/04/01 11:18:16 main DEBUG StmtUtil: JSON: {"sqlText":"SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE","sequenceId":0,"bindings":null,"bindStage":null,"describeOnly":false,"parameters":{"CLIENT_RESULT_CHUNK_SIZE":160},"describedJobId":null,"querySubmissionTime":1648829896869,"isInternal":false,"asyncExec":false}
+22/04/01 11:18:16 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=d5f34d15-d92a-4f04-8ace-f66fb5dd8810 HTTP/1.1
+22/04/01 11:18:16 main DEBUG RestRequest: Retry count: 0
+22/04/01 11:18:17 main DEBUG RestRequest: HTTP response code: 200
+22/04/01 11:18:17 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=d5f34d15-d92a-4f04-8ace-f66fb5dd8810 HTTP/1.1
+22/04/01 11:18:17 main DEBUG StmtUtil: Returning result
+22/04/01 11:18:17 main DEBUG SFStatement: Returning from executeHelper
+22/04/01 11:18:17 main DEBUG SFStatement: Creating result set
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Entering create()
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: query id: 01a351b2-0601-ddc9-006e-328300063036
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/04/01 11:18:17 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/04/01 11:18:17 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL1,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL2,typeName=TIMESTAMPLTZ,type=50000,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL3,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL4,typeName=TIMESTAMPTZ,type=50001,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:18:17 main DEBUG InternalLoggerFactory: Using SLF4J as the default logging framework
+22/04/01 11:18:17 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.level: simple
+22/04/01 11:18:17 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.targetRecords: 4
+22/04/01 11:18:17 main DEBUG PlatformDependent: Platform: MacOS
+22/04/01 11:18:17 main DEBUG PlatformDependent0: -Dio.netty.noUnsafe: false
+22/04/01 11:18:17 main DEBUG PlatformDependent0: Java version: 8
+22/04/01 11:18:17 main DEBUG PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+22/04/01 11:18:17 main DEBUG PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+22/04/01 11:18:17 main DEBUG PlatformDependent0: java.nio.Buffer.address: available
+22/04/01 11:18:17 main DEBUG PlatformDependent0: direct buffer constructor: available
+22/04/01 11:18:17 main DEBUG PlatformDependent0: java.nio.Bits.unaligned: available, true
+22/04/01 11:18:17 main DEBUG PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22/04/01 11:18:17 main DEBUG PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+22/04/01 11:18:17 main DEBUG PlatformDependent: sun.misc.Unsafe: available
+22/04/01 11:18:17 main DEBUG PlatformDependent: -Dio.netty.tmpdir: /var/folders/fw/gz2yvsw54cx9zbg16yc4gmsm0000gn/T (java.io.tmpdir)
+22/04/01 11:18:17 main DEBUG PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22/04/01 11:18:17 main DEBUG PlatformDependent: -Dio.netty.noPreferDirect: false
+22/04/01 11:18:17 main DEBUG PlatformDependent: -Dio.netty.maxDirectMemory: 15271460864 bytes
+22/04/01 11:18:17 main DEBUG PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22/04/01 11:18:17 main DEBUG CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 32
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 32
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+22/04/01 11:18:17 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+22/04/01 11:18:17 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22/04/01 11:18:17 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22/04/01 11:18:17 main DEBUG AbstractByteBuf: -Dnet.snowflake.client.jdbc.internal.io.netty.buffer.bytebuf.checkAccessible: true
+22/04/01 11:18:17 main DEBUG ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: net.snowflake.client.jdbc.internal.io.netty.util.ResourceLeakDetector@5e3a39cd
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: First chunk row count: 0
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: result version=1
+22/04/01 11:18:17 main DEBUG ResultUtil: sql timestamp_ntz format: YYYY-MM-DD HH24:MI:SS.FF3, java timestamp_ntz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss
+22/04/01 11:18:17 main DEBUG ResultUtil: sql timestamp_ltz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_ltz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/04/01 11:18:17 main DEBUG ResultUtil: sql timestamp_tz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_tz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: sql date format: YYYY-MM-DD, java date format: yyyy'-'MM'-'dd
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: sql time format: HH24:MI:SS, java time format: HH':'mm':'ss
+22/04/01 11:18:17 main DEBUG SnowflakeResultSetSerializableV1: Honoring client TZ for timestamp_ntz? true
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/04/01 11:18:17 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/04/01 11:18:17 main DEBUG SFStatement: Done creating result set
+22/04/01 11:18:17 main DEBUG SnowflakeStatementV1: getResultSetType()
+22/04/01 11:18:17 main DEBUG SnowflakeStatementV1: getResultSetConcurrency()
+22/04/01 11:18:17 main DEBUG SnowflakeStatementV1: getResultSetHoldability()
+22/04/01 11:18:17 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:18:17 main DEBUG SnowflakeStatementV1: getResultSet()
+22/04/01 11:19:50 main DEBUG SnowflakeBaseResultSet: public <T> T unwrap(Class<T> iface)
+22/04/01 11:19:50 main DEBUG SFArrowResultSet: end of result
+22/04/01 11:19:50 main DEBUG SFBaseResultSet: public void close()
+22/04/01 11:19:50 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/04/01 11:19:50 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:19:50 main DEBUG SnowflakeStatementV1: close()
+22/04/01 11:19:50 main DEBUG SFBaseResultSet: public void close()
+22/04/01 11:19:50 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/04/01 11:19:50 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:19:50 main DEBUG SFStatement: public void close()
+22/04/01 11:19:50 main DEBUG SnowflakeConnectionV1:  public void close()
+22/04/01 11:19:50 main DEBUG SFSession:  public void close()
+22/04/01 11:19:50 main DEBUG SFSession: heartbeat not enabled for the session
+22/04/01 11:19:50 main DEBUG SessionUtil:  public void close() throws SFException
+22/04/01 11:19:50 pool-1-thread-1 DEBUG SFBaseSession: Payload of telemetry is : {"logs":[{"timestamp":"1648829897928","message":{"type":"client_time_consume_first_result","query_id":"01a351b2-0601-ddc9-006e-328300063036","value":368}}]}
+22/04/01 11:19:50 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session?delete=true&requestId=198f5f8b-bc12-4038-981f-3a12e530991f HTTP/1.1
+22/04/01 11:19:50 pool-1-thread-1 DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/telemetry/send HTTP/1.1
+22/04/01 11:19:50 main DEBUG RestRequest: Retry count: 0
+22/04/01 11:19:50 pool-1-thread-1 DEBUG RestRequest: Retry count: 0
+22/04/01 11:19:50 pool-1-thread-1 DEBUG RestRequest: HTTP response code: 200
+22/04/01 11:19:58 main DEBUG DefaultSFConnectionHandler: Trying to establish session, JDBC driver version: 3.13.5
+22/04/01 11:19:58 main DEBUG SFSession: input: server=https://sfcsupport-waleed_va2.snowflakecomputing.com:443/, account=sfcsupport-waleed_va2, user=snowsql, password=***, role=null, database=null, schema=null, warehouse=null, validate_default_parameters=null, authenticator=null, ocsp_mode=FAIL_OPEN, passcode_in_password=null, passcode=****  private_key=(null), disable_socks_proxy=null, application=null, app_id=JDBC, app_version=3.13.5, login_timeout=null, network_timeout=null, query_timeout=null, tracing=null, private_key_file=null, private_key_file_pwd=****  session_parameters: client_store_temporary_credential=null
+22/04/01 11:19:58 main DEBUG SFSession: connection proxy parameters: use_proxy=false, proxy_host=, proxy_port=0, proxy_user=, proxy_password=****  non_proxy_hosts=
+22/04/01 11:19:58 main DEBUG HttpUtil: http.useProxy=false. JVM proxy not used.
+22/04/01 11:19:58 main DEBUG HttpUtil: time to live in connection pooling manager: -1
+22/04/01 11:19:58 main DEBUG FileCacheManager: Verified Directory /Users/wfateem/Library/Caches/Snowflake
+22/04/01 11:19:58 main DEBUG FileCacheManager: Cache file already exists /Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/04/01 11:19:58 main DEBUG FileCacheManager: No cache file lock directory exists and cache file is up to date.
+22/04/01 11:19:59 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 0; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=a602a594-aad2-4ef7-9fb5-b006ec0f464a HTTP/1.1
+22/04/01 11:19:59 main DEBUG RestRequest: Retry count: 0
+22/04/01 11:19:59 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:19:59 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:19:59 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:19:59 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:19:59 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:19:59 main DEBUG FileCacheManager: Writing cache file. File=/Users/wfateem/Library/Caches/Snowflake/ocsp_response_cache.json
+22/04/01 11:20:00 main DEBUG RestRequest: HTTP response code: 200
+22/04/01 11:20:00 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session/v1/login-request?requestId=a602a594-aad2-4ef7-9fb5-b006ec0f464a HTTP/1.1
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/04/01 11:20:00 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/04/01 11:20:00 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/04/01 11:20:00 main DEBUG SessionUtil: server version = 6.9.0
+22/04/01 11:20:00 main DEBUG SessionUtil: new client: 3.12.3
+22/04/01 11:20:00 main DEBUG SessionUtil: health check interval = 45
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/04/01 11:20:00 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/04/01 11:20:00 main DEBUG SFSession: heartbeat not enabled for the session
+22/04/01 11:20:00 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency)
+22/04/01 11:20:00 main DEBUG SnowflakeConnectionV1: Statement createStatement(int resultSetType, int resultSetConcurrency, int resultSetHoldability
+22/04/01 11:20:00 main DEBUG SnowflakeStatementV1:  public SnowflakeStatement(SnowflakeConnectionV1 conn)
+22/04/01 11:20:00 main DEBUG SFStatement:  public SFStatement(SFSession session)
+22/04/01 11:21:10 main DEBUG SFStatement: execute: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/04/01 11:22:23 main DEBUG SFStatement: executeQuery: SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE
+22/04/01 11:24:17 main DEBUG SFStatement: JDBC conservative memory usage is enabled.
+22/04/01 11:24:18 main DEBUG SFStatement: conservativeResultChunkSize changed from 0 to 160
+22/04/01 11:28:57 main DEBUG StmtUtil: JSON: {"sqlText":"SELECT * FROM TEST_DB.TEST_SCHEMA.TEST_TABLE","sequenceId":0,"bindings":null,"bindStage":null,"describeOnly":false,"parameters":{"CLIENT_RESULT_CHUNK_SIZE":160},"describedJobId":null,"querySubmissionTime":1648830305911,"isInternal":false,"asyncExec":false}
+22/04/01 11:36:25 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=38cea400-00e6-4476-979b-5559801c356c HTTP/1.1
+22/04/01 11:36:25 main DEBUG RestRequest: Retry count: 0
+22/04/01 11:36:26 main DEBUG SFTrustManager: CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: validating. CertID. NameHash: 33F5AAC61D66E7055D03173A4D1F3E187138850D, KeyHash: 59A4660652A07B95923CA394072796745BF93DD0, Serial Number: 9839636104868449841637802598640619188
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is NOT attached for verification. Verifying OCSP signature by the issuer public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 10:57:01 CDT 2022, Next Update: Thu Apr 07 10:12:01 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: validating. CertID. NameHash: 4F59A39453CFB9559E7F6BD8C54DA53DA642B714, KeyHash: 8418CC8534ECBC0C94942E08599CC7B2104E0A08, Serial Number: 144918209630989264145272943054026349679957517
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 06:21:05 CDT 2022, Next Update: Thu Apr 07 07:21:05 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: validating. CertID. NameHash: 887DA4445E67EA7C94774E43189C3ECEE4C87312, KeyHash: 9C5F00DFAA01D7302B3888A2B86D4A9CF2119183, Serial Number: 144918191876577076464031512351042010504348870
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Thu Mar 31 01:10:56 CDT 2022, Next Update: Thu Apr 07 02:10:56 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:26 main DEBUG SFTrustManager: validating. CertID. NameHash: 8BC19E845B981D61CF5469211A68B8E311336D90, KeyHash: BF5FB7D1CEDD1F86F45B55ACDCD710C20EA988E7, Serial Number: 12037640545166866303
+22/04/01 11:36:26 main DEBUG SFTrustManager: Certificate is attached for verification. Verifying it by the issuer certificate.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Verifying OCSP signature by the attached certificate public key.
+22/04/01 11:36:26 main DEBUG SFTrustManager: Current Time: Fri Apr 01 11:36:26 CDT 2022, This Update: Wed Mar 30 20:04:05 CDT 2022, Next Update: Fri Apr 01 08:04:05 CDT 2022
+22/04/01 11:36:26 main DEBUG SFTrustManager: OK. Verified the certificate revocation status.
+22/04/01 11:36:27 main DEBUG RestRequest: HTTP response code: 200
+22/04/01 11:36:27 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Request returned for: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/queries/v1/query-request?requestId=38cea400-00e6-4476-979b-5559801c356c HTTP/1.1
+22/04/01 11:37:46 main DEBUG StmtUtil: Returning result
+22/04/01 11:39:37 main DEBUG SFStatement: Returning from executeHelper
+22/04/01 11:40:23 main DEBUG SFStatement: Creating result set
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: Entering create()
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: query id: 01a351c4-0601-de73-006e-328300065026
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIMESTAMP_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_PREFETCH_THREADS: 1
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIME_OUTPUT_FORMAT: HH24:MI:SS
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_USE_SESSION_TIMEZONE: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: JDBC_EXECUTE_RETURN_COUNT_FOR_DML
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_EXECUTE_RETURN_COUNT_FOR_DML: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_RESULT_CHUNK_SIZE: 160
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIMESTAMP_TZ_OUTPUT_FORMAT: 
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_RS_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_CONSERVATIVE_MEMORY_ADJUST_STEP: 64
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_METADATA_USE_SESSION_DATABASE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_ENABLE_COMBINED_DESCRIBE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIMESTAMP_NTZ_OUTPUT_FORMAT: YYYY-MM-DD HH24:MI:SS.FF3
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_THREADS
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_THREADS: 1
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_TREAT_DECIMAL_AS_INT: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_MEMORY_LIMIT: 1536
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_TIMESTAMP_TYPE_MAPPING: TIMESTAMP_LTZ
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_EFFICIENT_CHUNK_STORAGE: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIMEZONE: America/Los_Angeles
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter SNOWPARK_REQUEST_TIMEOUT_IN_SECONDS: 86400
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_RESULT_PREFETCH_SLOTS
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_RESULT_PREFETCH_SLOTS: 2
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_ENABLED: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_USE_V1_QUERY_API
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_USE_V1_QUERY_API: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_DISABLE_INCIDENTS: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter BINARY_OUTPUT_FORMAT: HEX
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_TELEMETRY_SESSIONLESS_ENABLED
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_TELEMETRY_SESSIONLESS_ENABLED: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_CONSENT_CACHE_ID_TOKEN
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_CONSENT_CACHE_ID_TOKEN: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter DATE_OUTPUT_FORMAT: YYYY-MM-DD
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_FORCE_PROTECT_ID_TOKEN
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_FORCE_PROTECT_ID_TOKEN: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_FORMAT_DATE_WITH_TIMEZONE: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter SNOWPARK_LAZY_ANALYSIS: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD: 65280
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter JDBC_USE_JSON_PARSER: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY: 3600
+22/04/01 11:40:53 main DEBUG SessionUtil: Unknown Common Parameter: CLIENT_SESSION_CLONE
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter CLIENT_SESSION_CLONE: false
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter AUTOCOMMIT: true
+22/04/01 11:40:53 main DEBUG SessionUtil: Parameter TIMESTAMP_LTZ_OUTPUT_FORMAT: 
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL1,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL2,typeName=TIMESTAMPLTZ,type=50000,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL3,typeName=TIMESTAMPNTZ,type=93,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:40:53 main DEBUG SnowflakeResultSetSerializableV1: Get column metadata: name=COL4,typeName=TIMESTAMPTZ,type=50001,nullable=true,length=0,precision=0,scale=9,fixed=false,database=TEST_DB,schema=TEST_SCHEMA,table=TEST_TABLE
+22/04/01 11:40:53 main DEBUG InternalLoggerFactory: Using SLF4J as the default logging framework
+22/04/01 11:40:53 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.level: simple
+22/04/01 11:40:53 main DEBUG ResourceLeakDetector: -Dnet.snowflake.client.jdbc.internal.io.netty.leakDetection.targetRecords: 4
+22/04/01 11:40:53 main DEBUG PlatformDependent: Platform: MacOS
+22/04/01 11:40:53 main DEBUG PlatformDependent0: -Dio.netty.noUnsafe: false
+22/04/01 11:40:53 main DEBUG PlatformDependent0: Java version: 8
+22/04/01 11:40:53 main DEBUG PlatformDependent0: sun.misc.Unsafe.theUnsafe: available
+22/04/01 11:40:53 main DEBUG PlatformDependent0: sun.misc.Unsafe.copyMemory: available
+22/04/01 11:40:53 main DEBUG PlatformDependent0: java.nio.Buffer.address: available
+22/04/01 11:40:53 main DEBUG PlatformDependent0: direct buffer constructor: available
+22/04/01 11:40:53 main DEBUG PlatformDependent0: java.nio.Bits.unaligned: available, true
+22/04/01 11:40:53 main DEBUG PlatformDependent0: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22/04/01 11:40:53 main DEBUG PlatformDependent0: java.nio.DirectByteBuffer.<init>(long, int): available
+22/04/01 11:40:53 main DEBUG PlatformDependent: sun.misc.Unsafe: available
+22/04/01 11:40:53 main DEBUG PlatformDependent: -Dio.netty.tmpdir: /var/folders/fw/gz2yvsw54cx9zbg16yc4gmsm0000gn/T (java.io.tmpdir)
+22/04/01 11:40:53 main DEBUG PlatformDependent: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22/04/01 11:40:53 main DEBUG PlatformDependent: -Dio.netty.noPreferDirect: false
+22/04/01 11:40:53 main DEBUG PlatformDependent: -Dio.netty.maxDirectMemory: 15271460864 bytes
+22/04/01 11:40:53 main DEBUG PlatformDependent: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22/04/01 11:40:53 main DEBUG CleanerJava6: java.nio.ByteBuffer.cleaner(): available
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numHeapArenas: 32
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.numDirectArenas: 32
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.pageSize: 8192
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxOrder: 11
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.chunkSize: 16777216
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.tinyCacheSize: 512
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.smallCacheSize: 256
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.normalCacheSize: 64
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.cacheTrimInterval: 8192
+22/04/01 11:40:53 main DEBUG PooledByteBufAllocator: -Dio.netty.allocator.useCacheForAllThreads: true
+22/04/01 11:40:53 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22/04/01 11:40:53 main DEBUG InternalThreadLocalMap: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22/04/01 11:40:53 main DEBUG AbstractByteBuf: -Dnet.snowflake.client.jdbc.internal.io.netty.buffer.bytebuf.checkAccessible: true
+22/04/01 11:40:53 main DEBUG ResourceLeakDetectorFactory: Loaded default ResourceLeakDetector: net.snowflake.client.jdbc.internal.io.netty.util.ResourceLeakDetector@52a36910
+22/04/01 11:40:54 main DEBUG SnowflakeResultSetSerializableV1: First chunk row count: 0
+22/04/01 11:40:54 main DEBUG SnowflakeResultSetSerializableV1: result version=1
+22/04/01 11:40:54 main DEBUG ResultUtil: sql timestamp_ntz format: YYYY-MM-DD HH24:MI:SS.FF3, java timestamp_ntz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss
+22/04/01 11:40:54 main DEBUG ResultUtil: sql timestamp_ltz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_ltz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/04/01 11:40:54 main DEBUG ResultUtil: sql timestamp_tz format: YYYY-MM-DD HH24:MI:SS.FF3 TZHTZM, java timestamp_tz format: yyyy'-'MM'-'dd' 'HH':'mm':'ss' 'XX
+22/04/01 11:40:54 main DEBUG SnowflakeResultSetSerializableV1: sql date format: YYYY-MM-DD, java date format: yyyy'-'MM'-'dd
+22/04/01 11:40:54 main DEBUG SnowflakeResultSetSerializableV1: sql time format: HH24:MI:SS, java time format: HH':'mm':'ss
+22/04/01 11:40:54 main DEBUG SnowflakeResultSetSerializableV1: Honoring client TZ for timestamp_ntz? true
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIMESTAMP_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_PREFETCH_THREADS
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIME_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_USE_SESSION_TIMEZONE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_TREAT_TIMESTAMP_NTZ_AS_UTC
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_CHUNK_SIZE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIMESTAMP_TZ_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_RS_COLUMN_CASE_INSENSITIVE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_OUT_OF_BAND_TELEMETRY_ENABLED
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_USE_SESSION_DATABASE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_ENABLE_COMBINED_DESCRIBE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter ENABLE_STAGE_S3_PRIVATELINK_FOR_US_EAST_1
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIMESTAMP_NTZ_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_TREAT_DECIMAL_AS_INT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_HONOR_CLIENT_TZ_FOR_TIMESTAMP_NTZ
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_MEMORY_LIMIT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_TIMESTAMP_TYPE_MAPPING
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_EFFICIENT_CHUNK_STORAGE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIMEZONE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_TELEMETRY_ENABLED
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_DISABLE_INCIDENTS
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_RESULT_COLUMN_CASE_INSENSITIVE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_CONSERVATIVE_MEMORY_USAGE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter BINARY_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_ENABLE_LOG_INFO_STATEMENT_PARAMETERS
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter DATE_OUTPUT_FORMAT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_FORMAT_DATE_WITH_TIMEZONE
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter SNOWPARK_LAZY_ANALYSIS
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_STAGE_ARRAY_BINDING_THRESHOLD
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter JDBC_USE_JSON_PARSER
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter CLIENT_SESSION_KEEP_ALIVE_HEARTBEAT_FREQUENCY
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter AUTOCOMMIT
+22/04/01 11:40:54 main DEBUG SessionUtil: processing parameter TIMESTAMP_LTZ_OUTPUT_FORMAT
+22/04/01 11:41:48 main DEBUG SFStatement: Done creating result set
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: getResultSetType()
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: getResultSetConcurrency()
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: getResultSetHoldability()
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: getResultSet()
+22/04/01 11:44:08 main DEBUG SnowflakeBaseResultSet: public <T> T unwrap(Class<T> iface)
+22/04/01 11:44:08 main DEBUG SFArrowResultSet: end of result
+22/04/01 11:44:08 main DEBUG SFBaseResultSet: public void close()
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: close()
+22/04/01 11:44:08 main DEBUG SFBaseResultSet: public void close()
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: isWrapperFor(Class<?> iface)
+22/04/01 11:44:08 main DEBUG SnowflakeStatementV1: unwrap(Class<T> iface)
+22/04/01 11:44:08 main DEBUG SFStatement: public void close()
+22/04/01 11:44:08 main DEBUG SnowflakeConnectionV1:  public void close()
+22/04/01 11:44:08 main DEBUG SFSession:  public void close()
+22/04/01 11:44:08 main DEBUG SFSession: heartbeat not enabled for the session
+22/04/01 11:44:08 main DEBUG SessionUtil:  public void close() throws SFException
+22/04/01 11:44:08 pool-1-thread-1 DEBUG SFBaseSession: Payload of telemetry is : {"logs":[{"timestamp":"1648831254159","message":{"type":"client_time_consume_first_result","query_id":"01a351c4-0601-de73-006e-328300065026","value":266699}}]}
+22/04/01 11:44:08 pool-1-thread-1 DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/telemetry/send HTTP/1.1
+22/04/01 11:44:08 main DEBUG HttpUtil: Pool: [leased: 0; pending: 0; available: 1; max: 300] Executing: POST https://sfcsupport-waleed_va2.snowflakecomputing.com:443/session?delete=true&requestId=0220c389-e51f-4cc8-9808-35a94474d15b HTTP/1.1
+22/04/01 11:44:08 pool-1-thread-1 DEBUG RestRequest: Retry count: 0
+22/04/01 11:44:08 main DEBUG RestRequest: Retry count: 0
